@@ -1,3 +1,3 @@
 const firstCommit = ()=>{
-    alert()
+    alert("My Branch")
 }
