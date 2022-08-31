@@ -1,0 +1,3 @@
+const firstCommit = ()=>{
+    alert()
+}
