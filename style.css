@@ -1,0 +1,21 @@
+.log{
+    color: rgb(144, 44, 215);
+    font-size: 2em;
+}
+.can{
+    width: 50px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.contain{
+    padding-bottom: 2px;
+}
+.hide{
+    width: 30%;
+}
+.hideback{
+    background-color: rgb(242, 146, 13);
+}

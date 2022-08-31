@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>welcome to our banking app</h1>
+    <div class="container-fluid">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          Welcome To Your Dashboard
+       </button>
+      </div>    
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <img src="C:\Users\USER\Pictures\bankicon.png" alt="" class="icon">
+              <h5 class="offcanvas-title log" id="offcanvasExampleLabel">REX BANK</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <script src="main.js"></script>
+            <div class="offcanvas-body">
+              <div>
+                <div class="container ">
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide">Dashboard/balance</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide" onclick="trans()"> Fund Transfer</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide">User Information</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide">Bank Statement</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide">Loan/Mortages</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide" onclick=" makdep()">make Deposit</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-primary hide">Bank Cards</button>
+                  </div>
+                  <div class="row pb-3">
+                    <button type="button" class="btn btn-outline-danger hide" onclick="logout()">Logout</button>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
 </body>
 </html>
